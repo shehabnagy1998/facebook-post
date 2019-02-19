@@ -1,0 +1,377 @@
+﻿* {
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    width: 530px;
+    /*min-height: 700px;*/
+    /*background: #EEE;*/
+    float: left;
+    margin: 100px 0px 100px 400px;
+    padding: 10px;
+    border: 1px solid #DDD;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#detailsCon {
+    /*background: #DDD;*/
+    width: 80%;
+    height: 45px;
+}
+    #detailsCon img {
+        cursor: pointer;
+        float: left;
+    }
+    #detailsCon #nameCon {
+        float: left;
+    }
+        #detailsCon #nameCon {
+            margin: 5px 0px 0px 5px;
+        }
+            #detailsCon #nameCon a {
+                color: #365899;
+                font-size: 14px;
+                font-weight: 600;
+            }
+                #detailsCon #nameCon a:hover {
+                    text-decoration: underline;
+                }
+            #detailsCon #nameCon span {
+                font-size: 13px;
+                color: #616770;
+            }
+    #detailsCon #dateCon {
+        float: left;
+        margin: 25px 0px 0px -222px;
+    }
+        #detailsCon #dateCon a {
+            color: #616770;
+            font-size: 14px;
+        }
+            #detailsCon #dateCon a:hover {
+                text-decoration: underline;
+            }
+
+
+#images {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    /*background: #DDD;*/
+    border: .5px solid #DDD;
+    position: relative;
+}
+    #images #frontCover {
+        background: url(frontCover.jpg) #FFF no-repeat center;
+        width: 280px;
+        height: 280px;
+        position: absolute;
+        padding: 0px;
+        top: 100px;
+        left: 130px;
+        border: 0.5px solid #DDD;
+    }
+    #images #backCover {
+        background: url("backCover.jpg") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 280px;
+    }
+
+
+#buttons {
+    width: 100%;
+    height: 45px;
+}
+    #buttons #likeCon {
+        /*background: #DDD;*/
+        height: 35px;
+        width: 166px;
+        margin: 5px 0px 0px 0px;
+        float: left;
+        position: relative;
+    }
+        #buttons #likeCon #likePic {
+            background: url("like-off.png") center no-repeat;
+            width: 24px;
+            height: 22px;
+            float: left;
+            margin: 7px 0px 0px 55px;
+        }
+        #buttons #likeCon #word1 {
+            font-size: 13px;
+            color: #616770;
+            margin: 10px 55px 0px 0px;
+            float: right;
+            font-weight: bold;
+        }
+ .likeEmojiMain {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 280px;
+    height: 50px;
+    bottom: 37px;
+    left: -30px;
+    border-radius: 40px;
+    z-index: 10;
+    border: 1px solid #DDD;
+}
+.like {
+    background: url(like.gif) center no-repeat;
+    width: 500px;
+    height: 500px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -225px;
+    right: 2px;
+}
+ .love {
+    background: url(love.gif) center no-repeat;
+    width: 500px;
+    height: 500px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -225px;
+    right: -42px;
+}
+.haha {
+    background: url(haha.gif) center no-repeat;
+    width: 500px;
+    height: 500px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -225px;
+    right: -85px;
+}
+.wow {
+    background: url(wow.gif) center no-repeat;
+    width: 280px;
+    height: 280px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -115px;
+    right: -20px;
+    border-radius: 50%;
+}
+.sad {
+    background: url(sad.gif) center no-repeat;
+    width: 280px;
+    height: 280px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -115px;
+    right: -65px;
+    border-radius: 50%;
+}
+.angry {
+    background: url(angry.gif) center no-repeat;
+    width: 500px;
+    height: 500px;
+    transform: scale(0.12);
+    position: absolute;
+    top: -225px;
+    right: -222px;
+}
+
+#buttons #commentCon {
+    /*background: #DDD;*/
+    height: 35px;
+    width: 166px;
+    margin: 5px 16px 0px 16px;
+    float: left;
+}
+        #buttons #commentCon #commentPic {
+            background: url("comment-off.png") center no-repeat;
+            width: 24px;
+            height: 22px;
+            float: left;
+            margin: 7px 0px 0px 45px;
+        }
+        #buttons #commentCon #word2 {
+            font-size: 13px;
+            color: #616770;
+            margin: 10px 35px 0px 0px;
+            float: right;
+            font-weight: bold;
+        }
+#buttons #shareCon {
+    /*background: #DDD;*/
+    height: 35px;
+    width: 166px;
+    margin: 5px 0px 0px 0px;
+    float: left;
+}
+        #buttons #shareCon #sharePic {
+            background: url("share-off.png") center no-repeat;
+            width: 24px;
+            height: 22px;
+            float: left;
+            margin: 7px 0px 0px 45px;
+        }
+        #buttons #shareCon #word3 {
+            font-size: 13px;
+            color: #616770;
+            margin: 10px 55px 0px 0px;
+            float: right;
+            font-weight: bold;
+        }
+    .activeBtn {
+        cursor: pointer;
+        background: #f7f7f7;
+    }
+
+#comments {
+    border-top: 1px solid #DDD;
+    width: 104%;
+    margin: 0px 0px 0px -10px;
+    /*background: #00F;*/
+}
+
+#postedComment {
+    width: 100%;
+    min-height: 75px;
+    margin: 5px 0px 0px -2px;
+    border-left: 2px solid #5151d7;
+}
+    #postedComment #propic {
+        margin: 10px 0px 0px 10px;
+        /* background: #AAA; */
+        border-radius: 50%;
+        float: left;
+    }
+    #postedComment #nameAndContent {
+        margin: 10px 0px 0px 8px;
+        max-width: 450px;
+        min-width: 130px;
+        min-height: 20px;
+        background: #eff1f3;
+        display: inline-block;
+        padding: 10px 5px 10px 5px;
+        border-radius: 20px;
+    }
+        #postedComment #nameAndContent a {
+            text-decoration: none;
+            margin: 0px 0px 0px 5px;
+            color: #365899;
+            font-weight: bold;
+        }
+            #postedComment #nameAndContent a:hover {
+                text-decoration: underline;
+            }
+        #postedComment #nameAndContent span {
+            margin: 0px 5px 0px 5px;
+            word-break: break-word;
+        }
+    #postedComment #reactToComment {
+        width: 120px;
+        height: 20px;
+        margin: 2px 0px 0px 75px;
+        position: relative;
+    }
+#reactToComment .likeEmojiComments {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 280px;
+    height: 50px;
+    bottom: 20px;
+    left: -25px;
+    border-radius: 40px;
+    z-index: 10;
+    border: 1px solid #DDD;
+    cursor: pointer;
+}
+#postedComment #reactToComment a {
+    color: #365899;
+    margin: 0px 2px;
+    font-size: 14px;
+}
+        #postedComment #reactToComment span {
+            color: #919090;
+        }
+    #postedComment a:hover {
+        text-decoration: underline;
+    }
+
+#PostACommments {
+    /*margin: 5px 0px 0px 0px;*/
+    width: 100%;
+    min-height: 55px;
+}
+    #PostACommments img {
+        float: left;
+        margin: 5px 0px 0px 10px;
+    }
+    #PostACommments #commentBox {
+        background: #eff1f3;
+        position: relative;
+        width: 450px;
+        margin: 12px 0px 12px 10px;
+        padding: 7px 10px 3px 10px;
+        border-radius: 20px;
+        display: inline-block;
+    }
+        #PostACommments #commentBox textarea {
+            outline: none;
+            font-size: 15px;
+            border: 0px;
+            width: 350px;
+            /*height: auto;*/
+            resize: none;
+            background: #eff1f3;
+        }
+        #PostACommments #commentBox #emoji {
+            background: url("emoji-off.png") no-repeat center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: 5px;
+            right: 85px;
+            position: absolute;
+            display: block;
+        }
+        #PostACommments #commentBox #photovideo {
+            background: url("photo-off.png") no-repeat center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: 5px;
+            right: 60px;
+        }
+        #PostACommments #commentBox #gif {
+            background: url("gif-off.png") no-repeat center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: 5px;
+            right: 35px;
+        }
+        #PostACommments #commentBox #sticker {
+            background: url("sticker-off.png") no-repeat center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+        }
+        #PostACommments #commentBox .dia {
+            background: #2b2b2b;
+            min-width: 126px;
+            text-align: center;
+            position: absolute;
+            bottom: 27px;
+            left: -53px;
+            color: white;
+            font-size: 14px;
+            padding: 5px 3px 5px 3px;
+            z-index: 10;
+            border: 0px;
+        }
